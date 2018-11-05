@@ -18,7 +18,7 @@ def name_to_number(name):
     elif name == "scissors":
         return 4
     else:
-        return "Something was wrong with my input."
+        return "Something was wrong with my input. Please try again."
 
 
 def number_to_name(number):
