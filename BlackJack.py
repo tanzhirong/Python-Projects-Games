@@ -1,4 +1,4 @@
-import pygame
+#import pygame
 try:
     import simplegui
 except ImportError:
@@ -162,7 +162,7 @@ def draw(canvas):
                           CARD_SIZE)    
     #draw text and scoring
     canvas.draw_text(outcome, [100,125],25,"Blue")
-    canvas.draw_text("FUNDS: $"+str(score),[400,30],25,"Silver")
+    canvas.draw_text("Total Funds: $"+str(score),[400,30],25,"Silver")
     canvas.draw_text("Bet: $" + str(bet), [420,60],20,"Silver")
     canvas.draw_text("BLACK JACK",[120,50],40,"Gold")
     canvas.draw_text('Current Card Value: ' + str(myhand.get_value()),
